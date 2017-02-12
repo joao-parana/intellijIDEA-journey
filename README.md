@@ -12,27 +12,33 @@ Videos educativos oficiais e documentação em Geral - [https://www.jetbrains.co
 
 ## Usando a IDE
 
-A primeira coisa que aparece após a instalação é a **Customização**. Veja squencia abaixo.
+### Customização 
 
-![Customize_IntelliJ_IDEA](https://sourceforge.net/p/intellij-journey/code/ci/master/tree/assets/img/Customize_IntelliJ_IDEA.png?format=raw)
+A primeira coisa que aparece após a instalação é a **Customização**. Veja sequencia abaixo.
+
+![Customize_IntelliJ_IDEA](assets/img/Customize_IntelliJ_IDEA.png)
 
 
 
-![Customize_IntelliJ_IDEA-2](https://sourceforge.net/p/intellij-journey/code/ci/master/tree/assets/img/Customize_IntelliJ_IDEA-2.png?format=raw)
+![Customize_IntelliJ_IDEA-2](assets/img/Customize_IntelliJ_IDEA-2.png)
 
+### Dicas diárias
 
 As dicas são interessantes para ir aprendendo a usar a ferramenta aos poucos
 
-![Tip_of_the_Day](https://sourceforge.net/p/intellij-journey/code/ci/master/tree/assets/img/Tip_of_the_Day.png?format=raw)
+![Tip_of_the_Day](assets/img/Tip_of_the_Day.png)
 
+### Menu principal
 
 O Menu principal exibe dezenas de funcionalidades ao navegarmos por ele. Algumas se destacam
 
-![Menubar_poc-scala](https://sourceforge.net/p/intellij-journey/code/ci/master/tree/assets/img/Menubar_poc-scala.png?format=raw)
+![Menubar_poc-scala](assets/img/Menubar_poc-scala.png)
+
+### Um projeto de exemplo
 
 Uma visão geral do projeto poc-scala 
 
-![poc-scala-visao-geral](https://sourceforge.net/p/intellij-journey/code/ci/master/tree/assets/img/poc-scala-visao-geral.png?format=raw)
+![poc-scala-visao-geral](assets/img/poc-scala-visao-geral.png)
 
 
 
