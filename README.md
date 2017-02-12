@@ -10,6 +10,25 @@ Videos educativos oficiais e documentação em Geral - [https://www.jetbrains.co
 
 `wget https://download-cf.jetbrains.com/idea/ideaIU-2016.3.4.dmg` 
 
+## Compilador Scala
+
+No macOS o compilador Scala fica instalado em /usr/local/scala/bin
+
+É bastante saudável criar a variável de ambiente **SCALA_HOME** como abaixo
+
+```bash
+export SCALA_HOME=/usr/local/scala
+```
+
+e atualizar a variavel **PATH**
+
+```bash
+export PATH=$SCALA_HOME:$PATH
+```
+
+ambas no arquivo `.bash_profile`
+
+
 ## Usando a IDE
 
 ### Customização 
@@ -54,4 +73,32 @@ Partindo de projeto com POM é necessário fazer **add as maven project**. Veja 
 ![add-as-maven-project](assets/img/add-as-maven-project.png)
 
 
+Podemos executar a aplicação via atalho
+
+![run-scala-app](assets/img/run-scala-app.png)
+
+
+Se desejar abrir consoles Scala na IDE como mostrado abaixo
+
+![scala-console](assets/img/scala-console.png)
+
+Você deve configurar o Run
+
+![run-edit-configurations](assets/img/run-edit-configurations.png)
+
+# Build com Maven na console Bash
+
+```bash
+cd Development
+git clone git@github.com:joao-parana/intellijIDEA-journey.git
+cd intellijIDEA-journey
+tail README.md 
+cd projects/pocscala
+mvn install
+```
+
+# Links
+
+* [Coleções em Scala - https://twitter.github.io/scala_school/collections.html](https://twitter.github.io/scala_school/collections.html)
+* [Aplicação Scala no IntelliJ IDEA - https://www.jetbrains.com/help/idea/2016.3/creating-and-running-your-scala-application.html](https://www.jetbrains.com/help/idea/2016.3/creating-and-running-your-scala-application.html)
 
