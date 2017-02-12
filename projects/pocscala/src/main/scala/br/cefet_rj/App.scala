@@ -5,5 +5,6 @@ package br.cefet_rj
  *
  */
 object App extends Application {
+
   println( "Hello cruel World!" )
 }

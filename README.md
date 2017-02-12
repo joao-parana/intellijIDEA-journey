@@ -41,6 +41,17 @@ Uma visão geral do projeto poc-scala
 ![poc-scala-visao-geral](assets/img/poc-scala-visao-geral.png)
 
 
+É necessário instalar o plugin Scala.
+
+![Preferences_plugins](assets/img/Preferences_plugins.png)
+
+Encontre o plugin Scala e Instale. Ao final você deverá reiniciar a IDE
+
+
+Partindo de projeto com POM é necessário fazer **add as maven project**. Veja imagem abaixo
+
+
+![add-as-maven-project](assets/img/add-as-maven-project.png)
 
 
 
