@@ -2,3 +2,4 @@
 .DS_Store
 target/
 projects/pocscala/.idea
+projects/pocscala/pocscala.iml
