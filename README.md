@@ -86,6 +86,27 @@ Você deve configurar o Run
 
 ![run-edit-configurations](assets/img/run-edit-configurations.png)
 
+## Rodando Programa Scala com Shell Script
+
+Veja arquivo `scala.sh` de exemplo 
+
+```scala
+scala.sh 
+#!/usr/bin/env scala
+object HelloWorld extends App {
+  println("Hello, world!")
+}
+HelloWorld.main(args)
+```
+
+Ele deve ter o flag de execução habilitado
+
+
+```bash
+chmod a+rx scala.sh
+```
+
+
 # Build com Maven na console Bash
 
 ```bash
