@@ -122,4 +122,5 @@ mvn install
 
 * [Coleções em Scala - https://twitter.github.io/scala_school/collections.html](https://twitter.github.io/scala_school/collections.html)
 * [Aplicação Scala no IntelliJ IDEA - https://www.jetbrains.com/help/idea/2016.3/creating-and-running-your-scala-application.html](https://www.jetbrains.com/help/idea/2016.3/creating-and-running-your-scala-application.html)
+* [Criação de UML via WEB - http://www.plantuml.com/plantuml](http://www.plantuml.com/plantuml)
 
