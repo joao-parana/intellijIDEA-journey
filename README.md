@@ -170,6 +170,9 @@ A dependência abaixo permite que usemos o I/O do SBT nos nossos programas Scala
 </dependency>
 ```
 
+Este arquétipo prepara um projeto que usa o [SPEC2 - http://etorreborre.github.io/specs2/](http://etorreborre.github.io/specs2/)
+
+
 
 # Links
 
