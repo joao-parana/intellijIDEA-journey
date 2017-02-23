@@ -132,8 +132,22 @@ mvn archetype:generate -B \
   -Dpackage=myscala
 cd first-sbt
 cat pom.xml
-
 ```
+
+Altere as propriedades no arquivo pom.xml de tal forma que fique como abaixo:
+
+```xml
+  <properties>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+    <encoding>UTF-8</encoding>
+    <scala.version>2.11.8</scala.version>
+    <scala.compat.version>2.11</scala.compat.version>
+  </properties>
+```
+
+Depois execute `mvn install`
+
 
 # Links
 
