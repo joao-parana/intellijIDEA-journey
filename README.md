@@ -146,7 +146,19 @@ Altere as propriedades no arquivo pom.xml de tal forma que fique como abaixo:
   </properties>
 ```
 
-Depois execute `mvn install`
+Depois execute 
+
+```
+mvn install
+```
+
+Opcionalmente você pode colocar a linha abaixo em `properties`:
+
+```xml
+<maven.test.skip>true</maven.test.skip>
+```
+
+Isso faz com que os testes sejam ignorados 
 
 
 # Links
