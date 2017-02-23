@@ -160,6 +160,16 @@ Opcionalmente você pode colocar a linha abaixo em `properties`:
 
 Isso faz com que os testes sejam ignorados 
 
+A dependência abaixo permite que usemos o I/O do SBT nos nossos programas Scala
+
+```xml
+<dependency>
+    <groupId>org.scala-sbt</groupId>
+    <artifactId>io_2.11</artifactId>
+    <version>1.0.0-M9</version>
+</dependency>
+```
+
 
 # Links
 
