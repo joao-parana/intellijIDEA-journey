@@ -160,17 +160,23 @@ Opcionalmente você pode colocar a linha abaixo em `properties`:
 
 Isso faz com que os testes sejam ignorados 
 
-A dependência abaixo permite que usemos o I/O do SBT nos nossos programas Scala
+A dependência abaixo permite que usemos o I/O do SBT nos nossos programas Scala e o SPECS2
 
 ```xml
-<dependency>
-    <groupId>org.scala-sbt</groupId>
-    <artifactId>io_2.11</artifactId>
-    <version>1.0.0-M9</version>
-</dependency>
+    <dependency>
+        <groupId>org.scala-sbt</groupId>
+        <artifactId>io_2.11</artifactId>
+        <version>1.0.0-M9</version>
+    </dependency>
+    <dependency>
+      <groupId>org.specs2</groupId>
+      <artifactId>specs2-junit_${scala.compat.version}</artifactId>
+      <version>2.4.16</version>
+      <scope>test</scope>
+    </dependency>
 ```
 
-Este arquétipo prepara um projeto que usa o [SPEC2 - http://etorreborre.github.io/specs2/](http://etorreborre.github.io/specs2/)
+Este arquétipo prepara um projeto que usa o [SPECS2 - http://etorreborre.github.io/specs2/](http://etorreborre.github.io/specs2/)
 
 
 
