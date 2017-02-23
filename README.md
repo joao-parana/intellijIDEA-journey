@@ -118,6 +118,23 @@ cd projects/pocscala
 mvn install
 ```
 
+# Criando um projeto do Zero
+
+```bash
+cd ~/Desktop/Development
+mvn archetype:generate -B \
+  -DarchetypeGroupId=net.alchim31.maven \
+  -DarchetypeArtifactId=scala-archetype-simple \
+  -DarchetypeVersion=1.6 \
+  -DgroupId=br.cefet-rj.eic \
+  -DartifactId=first-sbt \
+  -Dversion=1.0.0-SNAPSHOT 
+  -Dpackage=myscala
+cd first-sbt
+cat pom.xml
+
+```
+
 # Links
 
 * [Coleções em Scala - https://twitter.github.io/scala_school/collections.html](https://twitter.github.io/scala_school/collections.html)
