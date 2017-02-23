@@ -23,7 +23,7 @@ export SCALA_HOME=/usr/local/scala
 e atualizar a variavel **PATH**
 
 ```bash
-export PATH=$SCALA_HOME:$PATH
+export PATH=$SCALA_HOME/bin:$PATH
 ```
 
 ambas no arquivo `.bash_profile`
