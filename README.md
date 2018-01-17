@@ -8,7 +8,7 @@ Videos educativos oficiais e documentação em Geral - [https://www.jetbrains.co
 
 ## Download para macOS
 
-`wget https://download-cf.jetbrains.com/idea/ideaIU-2016.3.4.dmg` 
+`curl -o ideaIU-2017.3.3.dmg https://download-cf.jetbrains.com/idea/ideaIU-2017.3.3.dmg`
 
 ## Compilador Scala
 
